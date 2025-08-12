@@ -24,9 +24,12 @@
             </ol>
             <img src="cats.jpg" alt="Cats">
             <form action="/submit-cat-photo">
-                <label><input type="radio" name="indoor-outdoor"> indoor </label>
-                <label><input type="radio" name="indoor-outdoor"> outdoor </label>
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> indoor </label>
+                <br>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> outdoor </label>
+                <br>
                 <input type="text" placeholder="cat photo URL" required>
+                <br>
                 <button type="submit">Submit</button>
             </form>
         </main>
